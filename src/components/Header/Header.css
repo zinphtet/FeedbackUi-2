@@ -1,0 +1,18 @@
+.header {
+	width: 100%;
+	padding: 0.8rem 0;
+	color: blue;
+	background-color: black;
+	margin-bottom: 2rem;
+	position: relative;
+}
+.header svg {
+	position: absolute;
+	right: 5%;
+	top: 1rem;
+	border: 1px solid blue;
+	border-radius: 50%;
+}
+.header >* {
+	cursor: pointer;
+}

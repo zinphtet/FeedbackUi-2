@@ -1,0 +1,32 @@
+.card {
+	padding: 2rem;
+	border-radius: 1rem;
+	background-color: #f4f4f4;
+	position: relative;
+	width: 90%;
+}
+.icon_div {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+}
+.icon_div > * {
+	margin-left: 0.5rem;
+}
+.icon_div svg {
+	color: palevioletred;
+	cursor: pointer;
+}
+.rating {
+	position: absolute;
+	top: -0.4rem;
+	left: -0.4rem;
+	/* padding: 0.2rem; */
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	background-color: palevioletred;
+}

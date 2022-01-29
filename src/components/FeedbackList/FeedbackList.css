@@ -1,0 +1,12 @@
+.feedback_list > * {
+	margin: 0.7rem;
+}
+
+.flex {
+	flex-direction: column;
+}
+.no_feedback {
+	margin-left: 2rem;
+	color: white;
+	text-transform: uppercase;
+}

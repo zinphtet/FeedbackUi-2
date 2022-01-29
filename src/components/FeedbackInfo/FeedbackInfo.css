@@ -1,0 +1,22 @@
+.feedback_info {
+	display: flex;
+	align-items: center;
+	margin: 1.5rem;
+	padding: 1rem;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: white;
+}
+.info {
+	border: 1px solid rgb(214, 48, 76);
+	padding: 0.2rem 0.4rem;
+}
+@media screen and (max-width: 970px) {
+	.feedback_info {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.feedback_info > * {
+		margin: 0.4rem 0;
+	}
+}

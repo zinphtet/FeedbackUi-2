@@ -1,0 +1,8 @@
+.rating_list {
+	margin-bottom: 0.5rem;
+}
+.rating_inner {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
