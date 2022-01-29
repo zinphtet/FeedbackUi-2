@@ -15,7 +15,7 @@ const Form = ()=>{
      if(editItem.edit){
       setText(editItem.item.msg)
      }
-       console.log(editItem)
+       
    },[editItem])
 
   const ratingArr = [1,2,3,4,5,6,7,8,9,10]
